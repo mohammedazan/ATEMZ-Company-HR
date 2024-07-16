@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Human Resources Management Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Project Overview
 
-## About Laravel
+The objective of this project is to develop an application that helps businesses manage their human resources more efficiently. The project was implemented by a team of three students.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The application was developed using the following technologies:
+- HTML5
+- CSS3
+- Bootstrap
+- PHP
+- Laravel
+- MySQL
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Designed to be user-friendly and customizable to meet the needs of different companies, the application is expected to provide numerous benefits, including:
+- Improved efficiency in human resources management.
+- Better-informed decision-making regarding human resources.
+- Enhanced employee satisfaction.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Application Features
 
-## Learning Laravel
+### Administration
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. **Statistics**:
+   - Display statistics such as the total number of employees, the number of employees on leave, etc.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. **Employee Management**:
+   - Implement CRUD operations to manage employee data.
+   - Create and manage employee authentication.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. **Work Hours Tracking**:
+   - Display employees with their work hours.
+   - Show validated hours and total salaries for each month.
 
-## Laravel Sponsors
+4. **Employee Attendance**:
+   - Visualize employee attendance.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+5. **Attendance Download**:
+   - Allow downloading of employee attendance records in Excel format.
 
-### Premium Partners
+6. **Leave Management**:
+   - View the remaining leave days for each employee.
+   - Display the list of employees on leave.
+   - Manage leave requests by accepting or rejecting them.
+   - Maintain a history of leaves.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+7. **System Configuration**:
+   - Configure employee types and their salaries according to the company's domain.
+   - Set the system to deduct a specific amount for unjustified absences.
 
-## Contributing
+8. **Work System Configuration**:
+   - Set up the work system, e.g., define a 5-day work week with 8 hours per day.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Employee
 
-## Code of Conduct
+1. **Leave Request**:
+   - Allow employees to submit leave requests.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2. **Time Clocking**:
+   - Enable employees to clock in their attendance at work.
 
-## Security Vulnerabilities
+### Employee Attendance
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. **Clocking Mechanism**:
+   - Efficient clocking mechanism for accurate and quick employee attendance recording.
+   - Detailed history of clock-ins, ensuring complete traceability.
 
-## License
+### Leave Management
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Leave Request**:
+   - Easy submission of leave requests through the application, simplifying the process.
+   - Administrator validation or rejection of leave requests, ensuring proper control over planned absences.
+   - Clear display of remaining leave balance for each employee, ensuring transparent human resource management.
+
+### Absence Management
+
+1. **Absence Declaration**:
+   - Employees can declare their absences, justified or not, ensuring smooth communication within the company.
+
+2. **Absence Tracking**:
+   - Real-time tracking of employee absence periods, facilitating work schedule management and company activities.
+
+3. **Absence Report Generation**:
+   - Capability to generate detailed reports on absences for a given period, providing in-depth analysis for future decision-making.
+
+### Screenshots from within the application
+
+![HR Management Application](./public/assets/images/MMM0.png)
+![HR Management Application](./public/assets/images/MMM1.png)
+![HR Management Application](./public/assets/images/MMM2.png)
+![HR Management Application](./public/assets/images/MMM3.png)
